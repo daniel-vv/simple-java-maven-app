@@ -1,5 +1,6 @@
 # 使用官方 OpenJDK 作为基础镜像
-FROM openjdk:11-jre-slim
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17
+
 
 # 设置工作目录
 WORKDIR /usr/src/app
