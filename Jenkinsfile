@@ -15,7 +15,7 @@ pipeline {
         stage('Clone GitHub Repo') {
             steps {
                 // 克隆 GitHub 仓库
-                git branch: 'master', url: 'git@github.com:daniel-vv/simple-java-maven-app.git'
+                git branch: 'master', url: 'https://github.com/daniel-vv/simple-java-maven-app.git'
             }
         }
 
